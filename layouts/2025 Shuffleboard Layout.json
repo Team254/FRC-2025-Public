@@ -1,0 +1,1580 @@
+{
+  "tabPane": [
+    {
+      "title": "Drive",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "3,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/GyroAngle",
+              "_title": "/AdvantageKit/DriveInputs/GyroAngle",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/Pose",
+              "_title": "/AdvantageKit/DriveInputs/Pose",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/OdometryPeriod",
+              "_title": "/AdvantageKit/DriveInputs/OdometryPeriod",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/RawHeading",
+              "_title": "/AdvantageKit/DriveInputs/RawHeading",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/Timestamp",
+              "_title": "/AdvantageKit/DriveInputs/Timestamp",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/ModuleStates",
+              "_title": "/AdvantageKit/DriveInputs/ModuleStates",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/ModuleTargets",
+              "_title": "/AdvantageKit/DriveInputs/ModuleTargets",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/Speeds",
+              "_title": "/AdvantageKit/DriveInputs/Speeds",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/FailedDaqs",
+              "_title": "/AdvantageKit/DriveInputs/FailedDaqs",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/DriveInputs/SuccessfulDaqs",
+              "_title": "/AdvantageKit/DriveInputs/SuccessfulDaqs",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Climber",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "1,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Pivot/cancoder/AbsolutePositionRotations",
+              "_title": "/AdvantageKit/Climber_Pivot/cancoder/AbsolutePositionRotations",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Pivot/cancoder/VelocityRotations",
+              "_title": "/AdvantageKit/Climber_Pivot/cancoder/VelocityRotations",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Pivot/AppliedVolts",
+              "_title": "/AdvantageKit/Climber_Pivot/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "1,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Pivot/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Climber_Pivot/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Pivot/UnitPosition",
+              "_title": "/AdvantageKit/Climber_Pivot/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Pivot/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Climber_Pivot/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "1,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/sensors/LeftClimberLimitSwitchTriggered",
+              "_title": "/AdvantageKit/Climber_Roller/sensors/LeftClimberLimitSwitchTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "3,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/sensors/RightClimberLimitSwitchTriggered",
+              "_title": "/AdvantageKit/Climber_Roller/sensors/RightClimberLimitSwitchTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "5,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/AppliedVolts",
+              "_title": "/AdvantageKit/Climber_Roller/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "1,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Climber_Roller/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Climber_Roller/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/UnitPosition",
+              "_title": "/AdvantageKit/Climber_Roller/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Climber_Roller/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/sensors/ClimberHallEffectTriggered",
+              "_title": "/AdvantageKit/Climber_Roller/sensors/ClimberHallEffectTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "7,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/sensors/ClimberLeftLimitSwitchTriggered",
+              "_title": "/AdvantageKit/Climber_Roller/sensors/ClimberLeftLimitSwitchTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "7,3": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Climber_Roller/sensors/ClimberRightLimitSwitchTriggered",
+              "_title": "/AdvantageKit/Climber_Roller/sensors/ClimberRightLimitSwitchTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Elevator",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "1,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/follower0/AppliedVolts",
+              "_title": "/AdvantageKit/Elevator/follower0/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/follower0/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Elevator/follower0/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/follower0/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Elevator/follower0/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "1,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/follower0/UnitPosition",
+              "_title": "/AdvantageKit/Elevator/follower0/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/follower0/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Elevator/follower0/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "1,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Elevator/sensors/ElevatorHallEffectTriggered",
+              "_title": "/AdvantageKit/Elevator/sensors/ElevatorHallEffectTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "5,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/AppliedVolts",
+              "_title": "/AdvantageKit/Elevator/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Elevator/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Elevator/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "1,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/UnitPosition",
+              "_title": "/AdvantageKit/Elevator/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "3,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Elevator/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "5,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/RobotState/ElevatorHeightMeters",
+              "_title": "/AdvantageKit/RealOutputs/RobotState/ElevatorHeightMeters",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/sensors/CanRangeDistanceLeft",
+              "_title": "/AdvantageKit/Elevator/sensors/CanRangeDistanceLeft",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Elevator/sensors/CanRangeDistanceRight",
+              "_title": "/AdvantageKit/Elevator/sensors/CanRangeDistanceRight",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "7,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/Elevator/sensors/ElevatorHallEffectTriggered",
+              "_title": "/AdvantageKit/Elevator/sensors/ElevatorHallEffectTriggered",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Indexer",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "5,0": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Indexer/sensors/FirstIndexerBannerTriggered",
+              "_title": "/AdvantageKit/Indexer/sensors/FirstIndexerBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "2,0": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Indexer/sensors/SecondIndexerBannerTriggered",
+              "_title": "/AdvantageKit/Indexer/sensors/SecondIndexerBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "6,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Indexer/AppliedVolts",
+              "_title": "/AdvantageKit/Indexer/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Indexer/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Indexer/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Indexer/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Indexer/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Indexer/UnitPosition",
+              "_title": "/AdvantageKit/Indexer/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Indexer/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Indexer/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/Indexer/sensors/SecondIndexerBannerTriggered",
+              "_title": "/AdvantageKit/Indexer/sensors/SecondIndexerBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/Indexer/sensors/FirstIndexerBannerTriggered",
+              "_title": "/AdvantageKit/Indexer/sensors/FirstIndexerBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Intake",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "2,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Pivot/cancoder/AbsolutePositionRotations",
+              "_title": "/AdvantageKit/Intake_Pivot/cancoder/AbsolutePositionRotations",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Pivot/cancoder/VelocityRotations",
+              "_title": "/AdvantageKit/Intake_Pivot/cancoder/VelocityRotations",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Pivot/AppliedVolts",
+              "_title": "/AdvantageKit/Intake_Pivot/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Pivot/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Intake_Pivot/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Pivot/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Intake_Pivot/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Pivot/UnitPosition",
+              "_title": "/AdvantageKit/Intake_Pivot/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Pivot/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Intake_Pivot/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Roller/AppliedVolts",
+              "_title": "/AdvantageKit/Intake_Roller/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Roller/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Intake_Roller/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Roller/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Intake_Roller/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Roller/UnitPosition",
+              "_title": "/AdvantageKit/Intake_Roller/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Intake_Roller/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Intake_Roller/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Vision",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "2,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraA/FiducialCount",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraA/FiducialCount",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraA/MegatagCount",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraA/MegatagCount",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,0": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraA/MegatagPoseEstimate",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraA/MegatagPoseEstimate",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraA/NormCheck",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraA/NormCheck",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "6,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraA/Pose3d",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraA/Pose3d",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraA/SeesTarget",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraA/SeesTarget",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "2,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraB/FiducialCount",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraB/FiducialCount",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraB/MegatagCount",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraB/MegatagCount",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraB/MegatagPoseEstimate",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraB/MegatagPoseEstimate",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,3": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraB/Pose3d",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraB/Pose3d",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraB/NormCheck",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraB/NormCheck",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "4,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/RealOutputs/Vision/CameraB/SeesTarget",
+              "_title": "/AdvantageKit/RealOutputs/Vision/CameraB/SeesTarget",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Wrist",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "2,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Wrist/cancoder/AbsolutePositionRotations",
+              "_title": "/AdvantageKit/Wrist/cancoder/AbsolutePositionRotations",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Wrist/cancoder/VelocityRotations",
+              "_title": "/AdvantageKit/Wrist/cancoder/VelocityRotations",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Wrist/AppliedVolts",
+              "_title": "/AdvantageKit/Wrist/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Wrist/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Wrist/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Wrist/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Wrist/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Wrist/UnitPosition",
+              "_title": "/AdvantageKit/Wrist/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Wrist/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Wrist/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "AlgaeRoller",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "2,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Algae_Roller/AppliedVolts",
+              "_title": "/AdvantageKit/Algae_Roller/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Algae_Roller/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Algae_Roller/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Algae_Roller/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Algae_Roller/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Algae_Roller/UnitPosition",
+              "_title": "/AdvantageKit/Algae_Roller/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Algae_Roller/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Algae_Roller/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/sensors/AlgaeBannerTriggered",
+              "_title": "/AdvantageKit/Coral_Roller/sensors/AlgaeBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "CoralRoller",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "2,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/sensors/ScoreCoralBannerTriggered",
+              "_title": "/AdvantageKit/Coral_Roller/sensors/ScoreCoralBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "4,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/sensors/StageCoralBannerTriggered",
+              "_title": "/AdvantageKit/Coral_Roller/sensors/StageCoralBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "6,0": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/AppliedVolts",
+              "_title": "/AdvantageKit/Coral_Roller/AppliedVolts",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/CurrentStatorAmps",
+              "_title": "/AdvantageKit/Coral_Roller/CurrentStatorAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/CurrentSupplyAmps",
+              "_title": "/AdvantageKit/Coral_Roller/CurrentSupplyAmps",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/UnitPosition",
+              "_title": "/AdvantageKit/Coral_Roller/UnitPosition",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "2,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/VelocityUnitsPerSecond",
+              "_title": "/AdvantageKit/Coral_Roller/VelocityUnitsPerSecond",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/sensors/ScoreCoralBannerTriggered",
+              "_title": "/AdvantageKit/Coral_Roller/sensors/ScoreCoralBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Network Table Tree",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/sensors/StageCoralBannerTriggered",
+              "_title": "/AdvantageKit/Coral_Roller/sensors/StageCoralBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "AllBanners",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "3,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/sensors/ScoreCoralBannerTriggered",
+              "_title": "/AdvantageKit/Coral_Roller/sensors/ScoreCoralBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "6,1": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Coral_Roller/sensors/StageCoralBannerTriggered",
+              "_title": "/AdvantageKit/Coral_Roller/sensors/StageCoralBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "3,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Indexer/sensors/FirstIndexerBannerTriggered",
+              "_title": "/AdvantageKit/Indexer/sensors/FirstIndexerBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          },
+          "6,2": {
+            "size": [
+              3,
+              1
+            ],
+            "content": {
+              "_type": "Boolean Box",
+              "_source0": "network_table:///AdvantageKit/Indexer/sensors/SecondIndexerBannerTriggered",
+              "_title": "/AdvantageKit/Indexer/sensors/SecondIndexerBannerTriggered",
+              "_glyph": 148,
+              "_showGlyph": false,
+              "Colors/Color when true": "#7CFC00FF",
+              "Colors/Color when false": "#8B0000FF"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "During Match",
+      "autoPopulate": false,
+      "autoPopulatePrefix": "",
+      "widgetPane": {
+        "gridSize": 128.0,
+        "showGrid": true,
+        "hgap": 16.0,
+        "vgap": 16.0,
+        "titleType": 0,
+        "tiles": {
+          "4,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Auto Mode",
+              "_title": "/SmartDashboard/Auto Mode",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Time Since Auto Command Not Valid",
+              "_title": "/SmartDashboard/Time Since Auto Command Not Valid",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "4,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Distance From Start Pose",
+              "_title": "/SmartDashboard/Distance From Start Pose",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,1": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/scoreOrder",
+              "_title": "/SmartDashboard/scoreOrder",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,2": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "ComboBox Chooser",
+              "_source0": "network_table:///SmartDashboard/Starting Position",
+              "_title": "/SmartDashboard/Starting Position",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          },
+          "6,3": {
+            "size": [
+              2,
+              1
+            ],
+            "content": {
+              "_type": "Text View",
+              "_source0": "network_table:///SmartDashboard/Controller Mode",
+              "_title": "/SmartDashboard/Controller Mode",
+              "_glyph": 148,
+              "_showGlyph": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "windowGeometry": {
+    "x": 0.0,
+    "y": 0.0,
+    "width": 1440.0,
+    "height": 900.0
+  }
+}

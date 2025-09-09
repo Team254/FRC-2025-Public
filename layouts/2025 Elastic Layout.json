@@ -1,0 +1,683 @@
+{
+  "version": 1.0,
+  "grid_size": 128,
+  "tabs": [
+    {
+      "name": "Teleoperated",
+      "grid_layout": {
+        "layouts": [
+          {
+            "title": "CameraA",
+            "x": 0.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "List Layout",
+            "properties": {
+              "label_position": "TOP"
+            },
+            "children": [
+              {
+                "title": "MegatagCount",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Text Display",
+                "properties": {
+                  "topic": "/SmartDashboard/Vision/CameraA/MegatagCount",
+                  "period": 0.06,
+                  "data_type": "double",
+                  "show_submit_button": false
+                }
+              },
+              {
+                "title": "SeesTarget",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Boolean Box",
+                "properties": {
+                  "topic": "/SmartDashboard/Vision/CameraA/SeesTarget",
+                  "period": 0.06,
+                  "data_type": "boolean",
+                  "true_color": 4283215696,
+                  "false_color": 4294198070,
+                  "true_icon": "None",
+                  "false_icon": "None"
+                }
+              }
+            ]
+          },
+          {
+            "title": "CameraB",
+            "x": 256.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "List Layout",
+            "properties": {
+              "label_position": "TOP"
+            },
+            "children": [
+              {
+                "title": "MegatagCount",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Text Display",
+                "properties": {
+                  "topic": "/SmartDashboard/Vision/CameraB/MegatagCount",
+                  "period": 0.06,
+                  "data_type": "double",
+                  "show_submit_button": false
+                }
+              },
+              {
+                "title": "SeesTarget",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Boolean Box",
+                "properties": {
+                  "topic": "/SmartDashboard/Vision/CameraB/SeesTarget",
+                  "period": 0.06,
+                  "data_type": "boolean",
+                  "true_color": 4283215696,
+                  "false_color": 4294198070,
+                  "true_icon": "None",
+                  "false_icon": "None"
+                }
+              }
+            ]
+          },
+          {
+            "title": "sensors",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "List Layout",
+            "properties": {
+              "label_position": "TOP"
+            },
+            "children": [
+              {
+                "title": "ScoreCoralBannerTriggered",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Boolean Box",
+                "properties": {
+                  "topic": "/AdvantageKit/Coral_Roller/sensors/ScoreCoralBannerTriggered",
+                  "period": 0.06,
+                  "data_type": "boolean",
+                  "true_color": 4283215696,
+                  "false_color": 4294198070,
+                  "true_icon": "None",
+                  "false_icon": "None"
+                }
+              },
+              {
+                "title": "StageCoralBannerTriggered",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Boolean Box",
+                "properties": {
+                  "topic": "/AdvantageKit/Coral_Roller/sensors/StageCoralBannerTriggered",
+                  "period": 0.06,
+                  "data_type": "boolean",
+                  "true_color": 4283215696,
+                  "false_color": 4294198070,
+                  "true_icon": "None",
+                  "false_icon": "None"
+                }
+              }
+            ]
+          },
+          {
+            "title": "sensors",
+            "x": 256.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 256.0,
+            "type": "List Layout",
+            "properties": {
+              "label_position": "TOP"
+            },
+            "children": [
+              {
+                "title": "FirstIndexerBannerTriggered",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Boolean Box",
+                "properties": {
+                  "topic": "/AdvantageKit/Indexer/sensors/FirstIndexerBannerTriggered",
+                  "period": 0.06,
+                  "data_type": "boolean",
+                  "true_color": 4283215696,
+                  "false_color": 4294198070,
+                  "true_icon": "None",
+                  "false_icon": "None"
+                }
+              },
+              {
+                "title": "SecondIndexerBannerTriggered",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 128.0,
+                "height": 128.0,
+                "type": "Boolean Box",
+                "properties": {
+                  "topic": "/AdvantageKit/Indexer/sensors/SecondIndexerBannerTriggered",
+                  "period": 0.06,
+                  "data_type": "boolean",
+                  "true_color": 4283215696,
+                  "false_color": 4294198070,
+                  "true_icon": "None",
+                  "false_icon": "None"
+                }
+              }
+            ]
+          }
+        ],
+        "containers": [
+          {
+            "title": "BatteryVoltage",
+            "x": 1024.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Voltage View",
+            "properties": {
+              "topic": "/AdvantageKit/SystemStats/BatteryVoltage",
+              "period": 0.06,
+              "data_type": "double",
+              "min_value": 4.0,
+              "max_value": 13.0,
+              "divisions": 5,
+              "inverted": false,
+              "orientation": "horizontal"
+            }
+          },
+          {
+            "title": "MatchTime",
+            "x": 512.0,
+            "y": 0.0,
+            "width": 512.0,
+            "height": 256.0,
+            "type": "Match Time",
+            "properties": {
+              "topic": "/AdvantageKit/DriverStation/MatchTime",
+              "period": 0.06,
+              "data_type": "double",
+              "time_display_mode": "Minutes and Seconds",
+              "red_start_time": 15,
+              "yellow_start_time": 30
+            }
+          },
+          {
+            "title": "FMSInfo",
+            "x": 0.0,
+            "y": 512.0,
+            "width": 512.0,
+            "height": 128.0,
+            "type": "FMSInfo",
+            "properties": {
+              "topic": "/FMSInfo",
+              "period": 0.06
+            }
+          },
+          {
+            "title": "Starting Position",
+            "x": 1536.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "ComboBox Chooser",
+            "properties": {
+              "topic": "/SmartDashboard/Starting Position",
+              "period": 0.06,
+              "sort_options": false
+            }
+          },
+          {
+            "title": "Auto Mode",
+            "x": 1536.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "ComboBox Chooser",
+            "properties": {
+              "topic": "/SmartDashboard/Auto Mode",
+              "period": 0.06,
+              "sort_options": false
+            }
+          },
+          {
+            "title": "scoreOrder",
+            "x": 1536.0,
+            "y": 128.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/scoreOrder",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "ledMode",
+            "x": 0.0,
+            "y": 768.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/limelight-left/ledMode",
+              "period": 0.06,
+              "data_type": "double",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "Field",
+            "x": 768.0,
+            "y": 256.0,
+            "width": 768.0,
+            "height": 512.0,
+            "type": "Field",
+            "properties": {
+              "topic": "/SmartDashboard/Field",
+              "period": 0.06,
+              "field_game": "Reefscape",
+              "robot_width": 0.85,
+              "robot_length": 0.85,
+              "show_other_objects": true,
+              "show_trajectories": true,
+              "field_rotation": 0.0,
+              "robot_color": 4294198070,
+              "trajectory_color": 4294967295
+            }
+          },
+          {
+            "title": "Auto Mode",
+            "x": 1024.0,
+            "y": 128.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "ComboBox Chooser",
+            "properties": {
+              "topic": "/SmartDashboard/Auto Mode",
+              "period": 0.06,
+              "sort_options": false
+            }
+          },
+          {
+            "title": "scoreOrder",
+            "x": 1280.0,
+            "y": 128.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/scoreOrder",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "Distance From Start Pose",
+            "x": 1280.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/Distance From Start Pose",
+              "period": 0.06,
+              "data_type": "double",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "Starting Position",
+            "x": 1408.0,
+            "y": 128.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "ComboBox Chooser",
+            "properties": {
+              "topic": "/SmartDashboard/Starting Position",
+              "period": 0.06,
+              "sort_options": false
+            }
+          },
+          {
+            "title": "WristRadians",
+            "x": 640.0,
+            "y": 256.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/RobotState/WristRadians",
+              "period": 0.06,
+              "data_type": "double",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "levelOrder",
+            "x": 512.0,
+            "y": 256.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/levelOrder",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "End With Algae",
+            "x": 640.0,
+            "y": 384.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "ComboBox Chooser",
+            "properties": {
+              "topic": "/SmartDashboard/End With Algae",
+              "period": 0.06,
+              "sort_options": false
+            }
+          },
+          {
+            "title": "drivebase-climber",
+            "x": 512.0,
+            "y": 384.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/CANBusStatus/drivebase-climber",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "superstructure",
+            "x": 512.0,
+            "y": 512.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/CANBusStatus/superstructure",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "canstatus",
+      "grid_layout": {
+        "layouts": [],
+        "containers": [
+          {
+            "title": "Starting Position",
+            "x": 1536.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "ComboBox Chooser",
+            "properties": {
+              "topic": "/SmartDashboard/Starting Position",
+              "period": 0.06,
+              "sort_options": false
+            }
+          },
+          {
+            "title": "Auto Mode",
+            "x": 1536.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "ComboBox Chooser",
+            "properties": {
+              "topic": "/SmartDashboard/Auto Mode",
+              "period": 0.06,
+              "sort_options": false
+            }
+          },
+          {
+            "title": "scoreOrder",
+            "x": 1536.0,
+            "y": 128.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/SmartDashboard/scoreOrder",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "ledMode",
+            "x": 0.0,
+            "y": 768.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/limelight-left/ledMode",
+              "period": 0.06,
+              "data_type": "double",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "ClawID27",
+            "x": 1024.0,
+            "y": 0.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/ClawID27",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "Climber_PivotID14",
+            "x": 512.0,
+            "y": 384.0,
+            "width": 384.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/Climber_PivotID14",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "Climber_RollerID15",
+            "x": 512.0,
+            "y": 256.0,
+            "width": 384.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/Climber_RollerID15",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "ElevatorID21",
+            "x": 768.0,
+            "y": 0.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/ElevatorID21",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "IndexerID25",
+            "x": 896.0,
+            "y": 0.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/IndexerID25",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "Elevator_RightID22",
+            "x": 512.0,
+            "y": 0.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/Elevator_RightID22",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "WristID26",
+            "x": 1152.0,
+            "y": 0.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/WristID26",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "Intake_RollerID24",
+            "x": 256.0,
+            "y": 0.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/Intake_RollerID24",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "Intake_PivotID23",
+            "x": 384.0,
+            "y": 0.0,
+            "width": 128.0,
+            "height": 128.0,
+            "type": "Boolean Box",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANstatus/Intake_PivotID23",
+              "period": 0.06,
+              "data_type": "boolean",
+              "true_color": 4283215696,
+              "false_color": 4294198070,
+              "true_icon": "None",
+              "false_icon": "None"
+            }
+          },
+          {
+            "title": "drivebase-climber",
+            "x": 896.0,
+            "y": 256.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANBusStatus/drivebase-climber",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          },
+          {
+            "title": "superstructure",
+            "x": 896.0,
+            "y": 384.0,
+            "width": 256.0,
+            "height": 128.0,
+            "type": "Text Display",
+            "properties": {
+              "topic": "/AdvantageKit/RealOutputs/CANBusStatus/superstructure",
+              "period": 0.06,
+              "data_type": "string",
+              "show_submit_button": false
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

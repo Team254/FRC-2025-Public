@@ -1,0 +1,364 @@
+{
+  "hubs": [
+    {
+      "x": 102,
+      "y": 25,
+      "width": 1338,
+      "height": 807,
+      "state": {
+        "sidebar": {
+          "width": 397,
+          "expanded": [
+            "/AdvantageKit/DriverStation/Joystick4",
+            "/AdvantageKit/DriverStation/Joystick0",
+            "/AdvantageKit/RealOutputs/Arm/IO",
+            "/AdvantageKit/RealOutputs/Arm/IO/setPositionSetpoint",
+            "/AdvantageKit/RealOutputs/Elevator/Sim",
+            "/AdvantageKit/RealOutputs/Elevator/API",
+            "/AdvantageKit/RealOutputs/Elevator/API/setPositionSetpointImp",
+            "/AdvantageKit/RealOutputs/Elevator/API/setOpenLoopDutyCycle",
+            "/AdvantageKit/RealOutputs/Arm/API/setPositionSetpoint",
+            "/AdvantageKit/RealOutputs/Intake",
+            "/AdvantageKit/RealOutputs/Intake/Sim",
+            "/AdvantageKit",
+            "/AdvantageKit/RealOutputs/RollerClaw",
+            "/AdvantageKit/RealOutputs/RollerClaw/Sim",
+            "/AdvantageKit/Intake",
+            "/AdvantageKit/RealOutputs/Drive/Viz",
+            "/AdvantageKit/RealOutputs/ReefViz/Coral",
+            "/RealOutputs/Vision/CameraA",
+            "/RealOutputs/Vision/CameraB",
+            "/RealOutputs/Indexer",
+            "/Indexer/sensors",
+            "/Coral_Roller/sensors",
+            "/AdvantageKit/RealOutputs",
+            "/AdvantageKit/RealOutputs/Drive",
+            "/AdvantageKit/RealOutputs/viz2d",
+            "/AdvantageKit/RealOutputs/viz2d/elevatorRoot",
+            "/AdvantageKit/RealOutputs/viz2d/elevatorRoot/elevator",
+            "/AdvantageKit/RealOutputs/viz2d/elevatorRoot/elevator/Wrist",
+            "/AdvantageKit/RealOutputs/viz2d/elevatorRoot/elevator/Wrist/coralRoller",
+            "/AdvantageKit/RealOutputs/FieldSimulation",
+            "/AdvantageKit/RealOutputs/Sim",
+            "/AdvantageKit/RealOutputs/Sim/HeldCoral",
+            "/AdvantageKit/RealOutputs/Sim/HeldAlgae",
+            "/PathPlanner",
+            "/AdvantageKit/RealOutputs/PathPlanner",
+            "/AdvantageKit/RealOutputs/viz2d/intakeRoot",
+            "/AdvantageKit/RealOutputs/viz2d/intakeRoot/intake",
+            "/AdvantageKit/RealOutputs/viz2d/intakeRoot/intake/intakeRoller"
+          ]
+        },
+        "tabs": {
+          "selected": 4,
+          "tabs": [
+            {
+              "type": 0,
+              "title": "",
+              "controller": null,
+              "controllerUUID": "bipmbqc4dnxdmnn1ce7b0jshx143nh29",
+              "renderer": "#/",
+              "controlsHeight": 0
+            },
+            {
+              "type": 3,
+              "title": "3D Field Logs",
+              "controller": {
+                "sources": [
+                  {
+                    "type": "robot",
+                    "logKey": "/RealOutputs/Drive/Viz/Pose3d",
+                    "logType": "Pose3d",
+                    "visible": true,
+                    "options": {
+                      "model": "2025Comp"
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "logKey": "/RealOutputs/ComponentsPoseArray",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {}
+                  },
+                  {
+                    "type": "mechanism",
+                    "logKey": "/RealOutputs/viz2d",
+                    "logType": "Mechanism2d",
+                    "visible": true,
+                    "options": {}
+                  },
+                  {
+                    "type": "swerveStates",
+                    "logKey": "/RealOutputs/Drive/Viz/ModuleStatesCurrent",
+                    "logType": "SwerveModuleState[]",
+                    "visible": true,
+                    "options": {
+                      "color": "#ff0000",
+                      "arrangement": "0,1,2,3"
+                    }
+                  },
+                  {
+                    "type": "trajectory",
+                    "logKey": "/RealOutputs/PathPlanner/activePath",
+                    "logType": "Pose2d[]",
+                    "visible": true,
+                    "options": {
+                      "color": "#00ff00",
+                      "size": "normal"
+                    }
+                  },
+                  {
+                    "type": "ghost",
+                    "logKey": "/RealOutputs/Vision/CameraA/AcceptedMegatagEstimate",
+                    "logType": "Pose2d",
+                    "visible": true,
+                    "options": {
+                      "model": "2025Comp",
+                      "color": "#00ff00"
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "logKey": "/RealOutputs/ComponentsPoseArray",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {}
+                  },
+                  {
+                    "type": "ghost",
+                    "logKey": "/RealOutputs/Vision/CameraB/AcceptedMegatagEstimate",
+                    "logType": "Pose2d",
+                    "visible": true,
+                    "options": {
+                      "model": "2025Comp",
+                      "color": "#ff0000"
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "logKey": "/RealOutputs/ComponentsPoseArray",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {}
+                  }
+                ],
+                "game": "2025 Field (Welded)",
+                "origin": "blue"
+              },
+              "controllerUUID": "y4jpkq85l4srlydlwqw4oxie0nd6eejz",
+              "renderer": {
+                "cameraIndex": -2,
+                "orbitFov": 50,
+                "cameraPosition": [
+                  -0.019412852249730106,
+                  3.974051307445484,
+                  -3.4958564065964586
+                ],
+                "cameraTarget": [
+                  -0.5660032376899851,
+                  0.5,
+                  -0.4602288397533989
+                ]
+              },
+              "controlsHeight": 404
+            },
+            {
+              "type": 1,
+              "title": "CoralStates Logs",
+              "controller": {
+                "leftSources": [],
+                "rightSources": [],
+                "discreteSources": [
+                  {
+                    "type": "stripes",
+                    "logKey": "/RealOutputs/Current_Coral_State",
+                    "logType": "String",
+                    "visible": true,
+                    "options": {
+                      "color": "#2b66a2"
+                    }
+                  },
+                  {
+                    "type": "stripes",
+                    "logKey": "/RealOutputs/Current_Superstructure_State",
+                    "logType": "String",
+                    "visible": true,
+                    "options": {
+                      "color": "#e5b31b"
+                    }
+                  },
+                  {
+                    "type": "stripes",
+                    "logKey": "/Indexer/sensors/SecondIndexerBannerTriggered",
+                    "logType": "Boolean",
+                    "visible": true,
+                    "options": {
+                      "color": "#af2437"
+                    }
+                  },
+                  {
+                    "type": "stripes",
+                    "logKey": "/Indexer/sensors/FirstIndexerBannerTriggered",
+                    "logType": "Boolean",
+                    "visible": true,
+                    "options": {
+                      "color": "#80588e"
+                    }
+                  },
+                  {
+                    "type": "stripes",
+                    "logKey": "/Coral_Roller/sensors/StageCoralBannerTriggered",
+                    "logType": "Boolean",
+                    "visible": true,
+                    "options": {
+                      "color": "#e48b32"
+                    }
+                  }
+                ],
+                "leftLockedRange": null,
+                "rightLockedRange": null,
+                "leftUnitConversion": {
+                  "type": null,
+                  "factor": 1
+                },
+                "rightUnitConversion": {
+                  "type": null,
+                  "factor": 1
+                },
+                "leftFilter": 0,
+                "rightFilter": 0
+              },
+              "controllerUUID": "m26aqrasoh94ud1exweytjc4r3r0ifoq",
+              "renderer": null,
+              "controlsHeight": 200
+            },
+            {
+              "type": 3,
+              "title": "3D Field Sim",
+              "controller": {
+                "sources": [
+                  {
+                    "type": "robot",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Drive/Viz/Pose3d",
+                    "logType": "Pose3d",
+                    "visible": true,
+                    "options": {
+                      "model": "2025Comp"
+                    }
+                  },
+                  {
+                    "type": "component",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/ComponentsPoseArray",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {}
+                  },
+                  {
+                    "type": "mechanism",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/viz2d",
+                    "logType": "Mechanism2d",
+                    "visible": true,
+                    "options": {}
+                  },
+                  {
+                    "type": "swerveStates",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Drive/Viz/ModuleStatesCurrent",
+                    "logType": "SwerveModuleState[]",
+                    "visible": true,
+                    "options": {
+                      "color": "#ff0000",
+                      "arrangement": "0,1,2,3"
+                    }
+                  },
+                  {
+                    "type": "gamePiece",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/FieldSimulation/Algae",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {
+                      "variant": "Algae"
+                    }
+                  },
+                  {
+                    "type": "gamePiece",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/FieldSimulation/Coral",
+                    "logType": "Pose3d[]",
+                    "visible": true,
+                    "options": {
+                      "variant": "Coral"
+                    }
+                  },
+                  {
+                    "type": "gamePiece",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Sim/HeldCoral/Pose3d",
+                    "logType": "Pose3d",
+                    "visible": true,
+                    "options": {
+                      "variant": "Coral"
+                    }
+                  },
+                  {
+                    "type": "gamePiece",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/Sim/HeldAlgae/Pose3d",
+                    "logType": "Pose3d",
+                    "visible": true,
+                    "options": {
+                      "variant": "Algae"
+                    }
+                  },
+                  {
+                    "type": "trajectory",
+                    "logKey": "NT:/AdvantageKit/RealOutputs/PathPlanner/activePath",
+                    "logType": "Pose2d[]",
+                    "visible": true,
+                    "options": {
+                      "color": "#00ff00",
+                      "size": "normal"
+                    }
+                  }
+                ],
+                "game": "2025 Field (Welded)",
+                "origin": "blue"
+              },
+              "controllerUUID": "u8fs493gp1pkup7t7d77kdz8qftm72o9",
+              "renderer": {
+                "cameraIndex": -1,
+                "orbitFov": 50,
+                "cameraPosition": [
+                  -1.1129414051681539,
+                  8.078001319796051,
+                  -10.751058432816354
+                ],
+                "cameraTarget": [
+                  0,
+                  0.5,
+                  0
+                ]
+              },
+              "controlsHeight": 200
+            },
+            {
+              "type": 10,
+              "title": "Mechanism Sim",
+              "controller": [
+                {
+                  "type": "mechanism",
+                  "logKey": "NT:/AdvantageKit/RealOutputs/viz2d",
+                  "logType": "Mechanism2d",
+                  "visible": true,
+                  "options": {}
+                }
+              ],
+              "controllerUUID": "z2x4shdng25gg984eo88zbk4gr6ii172",
+              "renderer": null,
+              "controlsHeight": 200
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "satellites": [],
+  "version": "4.1.0"
+}
